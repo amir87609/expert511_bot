@@ -23,6 +23,9 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(f"Signal: {signal}")
 
 if __name__ == '__main__':
-    app = ApplicationBuilder().token(TOKEN).build()
+    app = ApplicationBuilder().token(7467619502:AAGRo3Pe6rrUsSf5rwiIWMbUGhJPekQDllk
+
+
+).build()
     app.add_handler(CommandHandler("start", start))
     app.run_polling()
